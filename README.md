@@ -47,7 +47,7 @@ The data set used is publicly available on kaggle: [FitBit Fitness Tracker Data]
 
 Based on the ROCCC test the Data Set can be deemed to be of bad quality and is not recommended to produce business recommendations based on this data.
 
-### The following data sets are selected for analysis:
+#### The following data sets are selected for analysis:
 
 * Daily Activity
 * Daily Calories
@@ -56,6 +56,13 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 * Weight Log Info
 * Hourly Intensities
 
+## Process
+
+#### Tools
+
+* SQL (MySql) for cleaning and format data.
+* R studio to Manipulate, Analyze and make data visualization.
+* Tableau to make interactive dashboard
 
 
 
