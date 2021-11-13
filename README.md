@@ -64,6 +64,12 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 * R studio to Manipulate, Analyze and make data visualization.
 * Tableau to make interactive dashboard
 
+### Data Cleaning Process
+
+* Import all the CSV files in 
+
+
+
 
 
 
