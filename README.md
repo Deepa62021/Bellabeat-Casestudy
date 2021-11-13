@@ -8,7 +8,7 @@ Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that 
 
 ## Ask
 
-### Business Task:
+## Business Task:
 
 Analyze smart device usage data (FitBit Fitness Tracker data) in order to gain insight into how consumers use non-Bellabeat smart devices and discover trends and insights for Bellabeat Marketing Strategy.
 
@@ -16,7 +16,7 @@ Analyze smart device usage data (FitBit Fitness Tracker data) in order to gain i
 2. How could these trends apply to Bellabeat customers?
 3. How could these trends help influence Bellabeat marketing strategy?
 
-### Key Stakeholders:
+** Key Stakeholders:**
 
 * Urška Sršen: Bellabeat’s cofounder and Chief Creative Officer.
 * Sando Mur: Mathematician, Bellabeat’s cofounder and key member of the Bellabeat executive team.
@@ -37,7 +37,7 @@ The data set used is publicly available on kaggle: [FitBit Fitness Tracker Data]
 * Sample size of 30 FitBit users is not a big enough sample size to represent the entire population using FitBit.
 * As data is collected through a third party survey, hence the data might not be completely accurate.
 
-#### ROCCC Test of the Data Sets:
+### ROCCC Test of the Data Sets:
 
   1. *Reiable*: Not reliable as it only has 30 respondents (LOW)
   2. *Original*: Third Party Provider (LOW)
@@ -47,7 +47,7 @@ The data set used is publicly available on kaggle: [FitBit Fitness Tracker Data]
 
 Based on the ROCCC test the Data Set can be deemed to be of bad quality and is not recommended to produce business recommendations based on this data.
 
-#### The following data sets are selected for analysis:
+### The following data sets are selected for analysis:
 
 * Daily Activity
 * Daily Calories
@@ -58,7 +58,7 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 
 ## Process
 
-#### Tools
+### Tools
 
 * SQL (MySql) for cleaning and format data.
 * R studio to Manipulate, Analyze and make data visualization.
