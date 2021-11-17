@@ -66,7 +66,8 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 
 ### Data Cleaning Process
 
-* Import all the CSV files in 
+* Import all the CSV files in MySql tables
+* Checking the number of observation and distinct ids from each of the data sets
 
 
 
