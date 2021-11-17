@@ -1,10 +1,21 @@
-# Bellabeat-Casestudy
+# Bellabeat Product Analysis-Casestudy
 
 ## Introduction
 
 Bellabeat is a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. Since it was founded in 2013, Bellabeat has grown rapidly and quickly positioned itself as a tech-driven wellness company for women.
 
 Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. we have been asked to focus on one of Bellabeat’s products and analyze smart device data to gain insight into how consumers are using their smart devices.The insights we discover will then help guide marketing strategy for the company.
+
+## The Report
+
+The insights will be presented following the data analysis process steps:
+
+🤔Ask: Identify the problem to be solved and how our insights can drive business decisions.
+💻Prepare: Gather the relevant data, organize it and store it. Verify data integrity and credibility.
+🧰Process: Choose tools to handle the data and identify its advantages. Clean our data and ensure it is ready for analysis. Document the cleaning process and save cleaned data.
+🧑🏻‍💻Analyze: Organize and format the data to answer our questions. Perform calculations and identify trends and relationships within the data.
+📊Share: Create visualizations to share most relevant findings. Relate findings to original questions.
+🎬Act: present final conclusions and suggested approach to deal with findings and next steps.
 
 ## Ask
 
