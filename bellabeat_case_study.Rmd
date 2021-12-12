@@ -1,0 +1,137 @@
+---
+title : "Bellabeat Case Study"
+
+
+output: html_document
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Inroduction** 
+
+ **Bellabeat** is a high-tech manufacturer of health-focused products for women, and meet different team members. **Bellabeat** is a successful small company, but they have the potential to become a larger player in the global [smart device](https://en.wikipedia.org/wiki/Smart_device) market. Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company.
+Urška Sršen and Sando Mur founded Bellabeat, a high-tech company that manufactures health-focused smart products.I am a junior data analyst working on the marketing analyst team at **Bellabeat**. Sršen knows that an analysis of Bellabeat’s available consumer data would reveal more opportunities for growth. She has asked the marketing analytics team to focus on a Bellabeat product and analyze smart device usage data in order to gain insight into how people are already using their smart devices. Then, using this information, she would like high-level
+recommendations for how these trends can inform Bellabeat marketing strategy.
+
+**Stakeholders:**
+
+**Primary Stakeholders:**
+ Urška Sršen: Bellabeat’s cofounder and Chief Creative Officer.
+ Sando Mur: Mathematician and Bellabeat’s cofounder; key member of the Bellabeat executive team.
+ 
+ **Secondary Stakeholders:**
+ Bellabeat marketing analytics team: A team of data analysts responsible for collecting, analyzing, and
+reporting data that helps guide Bellabeat’s marketing strategy.
+
+## Buisness Task
+Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart
+devices. And then select one Bellabeat product to apply these insights to in our presentation.
+
+#### Preparing Data for Analysis 
+
+Data Sources Used:
+
+  * The dataset used for this analysis is: [Link](FitBit Fitness Tracker Data)
+
+  * License: (CC0:PublicDomain)
+
+  * Dataset made available through Mobius
+
+This Kaggle dataset contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity,heart rate,and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
+
+## Data exploration
+
+### 1.Load packages
+
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(skimr)
+library(janitor)
+```
+### 2. Import datasets
+
+
+```{r echo=TRUE, message=FALSE, warning=FALSE, paged.print=FALSE}
+dailyActivity <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/dailyActivity_merged.csv")
+dailyCalories <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/dailyCalories_merged.csv")
+dailyIntensities <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/dailyIntensities_merged.csv")
+hourlyIntensities <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/hourlyIntensities_merged (1).csv")
+sleepDay <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/sleepDay_merged.csv")
+weightLogInfo <- read_csv("C:/Users/deeps/Desktop/Bellabeat_CaseStudy/weightLogInfo_merged.csv")
+
+```
+### 3. Inspecting the datasets
+
+
+```{r
+# Inspecting the following datasets:
+
+# Datasets : dailyActivity, dailyCalories, dailyIntensities, hourlyIntensities, sleepDay, weightLogInfo}
+
+colnames(dailyActivity)
+colnames(dailyCalories)
+colnames(dailyIntensities)
+colnames(hourlyIntensities)
+colnames(sleepDay)
+colnames(weightLogInfo)
+
+```
+
+
+Summarize or preview the datasets with the `glimpse()` and skimr() functions to get a better understanding of the data by running the code chunks below:
+
+
+```{r}
+glimpse(dailyActivity)
+glimpse(dailyCalories)
+glimpse(dailyIntensities)
+glimpse(hourlyIntensities)
+glimpse(sleepDay)
+glimpse(weightLogInfo)
+```
+
+```{r}
+skim_without_charts(dailyActivity)
+skim_without_charts(dailyCalories)
+skim_without_charts(dailyIntensities)
+skim_without_charts(hourlyIntensities)
+skim_without_charts(sleepDay)
+skim_without_charts(weightLogInfo)
+```
+
+```{r}
+head(dailyActivity)
+head(dailyCalories)
+head(dailyIntensities)
+head(hourlyIntensities)
+head(sleepDay)
+head(weightLogInfo)
+```
+
+```{r}
+# Inspecting the distinct Id's in the six data frames:
+n_distinct(dailyActivity$Id)
+n_distinct(dailyCalories$Id)
+n_distinct(dailyIntensities$Id)
+n_distinct(hourlyIntensities$Id)
+n_distinct(sleepDay$Id)
+n_distinct(weightLogInfo$Id)
+```
+
+## Result of the above inspection:
+
+1. 
+
+
+ 
+
+
