@@ -27,7 +27,7 @@ Analyze smart device usage data (FitBit Fitness Tracker data) in order to gain i
 2. How could these trends apply to Bellabeat customers?
 3. How could these trends help influence Bellabeat marketing strategy?
 
-** Key Stakeholders:**
+**Key Stakeholders:**
 
 * Urška Sršen: Bellabeat’s cofounder and Chief Creative Officer.
 * Sando Mur: Mathematician, Bellabeat’s cofounder and key member of the Bellabeat executive team.
