@@ -69,6 +69,8 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 
 ## Process
 
+We will begin this phase by loading the libraries and datasets that are going to be used. Then, we will perform data exploration by getting an overview of the datasets, checking the data types, gathering a statistics summary, as well as cleaning the data.
+
 ### Tool
 
 * Python
