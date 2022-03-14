@@ -69,16 +69,12 @@ Based on the ROCCC test the Data Set can be deemed to be of bad quality and is n
 
 ## Process
 
-### Tools
+### Tool
 
-* SQL (MySql) for cleaning and format data.
-* R studio to Manipulate, Analyze and make data visualization.
-* Tableau to make interactive dashboard
+* Python
 
 ### Data Cleaning Process
 
-* Import all the CSV files in MySql tables
-* Checking the number of observation and distinct ids from each of the data sets
 
 
 
